@@ -11,7 +11,7 @@ body {
 
 /* Mengubah warna navbar */
 nav.navbar-dark {
-  background-color: #00a7b3 !important; /* Hijau tua */
+  background-color: #00a7b3 !important; 
 }
 
 /* Hero Section */
@@ -79,7 +79,7 @@ nav.navbar-dark {
 /* Kartu */
 .card {
   border-radius: 10px;
-  background-color: #00a7b3 !important; /* Hijau untuk latar belakang kartu */
+  background-color: #00a7b3 !important; 
 }
 
 .card img {
@@ -92,7 +92,7 @@ nav.navbar-dark {
 
 .card-title {
   font-family: "Quicksand", sans-serif; /* Font modern dan bersih untuk judul kartu */
-  color: #ffffff; /* Hijau tua untuk judul kartu */
+  color: #ffffff; 
 }
 
 .card-text {
@@ -114,7 +114,7 @@ nav.navbar-dark {
 
 /* Footer */
 .footer {
-  background-color: #00a7b3 !important; /* Hijau tua untuk footer */
+  background-color: #00a7b3 !important; 
   color: #ffffff !important; /* Teks putih */
 }
 
@@ -131,7 +131,7 @@ footer .input-group .form-control {
 footer .input-group .btn {
   border-radius: 0;
   padding: 0.75rem 1rem;
-  background-color: #1768d1; /* Biru untuk tombol footer */
+  background-color: #1768d1; 
   border: none;
 }
 
@@ -141,7 +141,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #f0e68c !important; /* Kuning cerah saat hover */
+  color: #f0e68c !important; 
 }
 
 footer .fab {
