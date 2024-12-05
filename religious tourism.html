@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destiny</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200..800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="./images/desa wisata (1).png" alt="Logo" width="70" height="70" />
+                Destiny
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Destinasi">Destinasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- arahkan link kontak ke bagian footer -->
+                        <a class="nav-link" title="Halaman Kontak" href="">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <section class="container-fluid py-5">
+        <div class="row">
+            <div class="col-md-6 no-p-left">
+                <img id="dest-photo" src="/images/lampir 1.jpg" alt="img" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-6 no-p-right">
+              <img id="desyt-photo" src="/images/lampir 2.jpg" alt="img" class="card-img-top"/>
+            </div>
+            <div class="col-md-6 navbar-collapse">
+                <!-- Ubah konten dibawah ini -->
+                <div class="card p-3 shadow">
+                    <br>
+                    <h2 id="dest-name" class="mt-4">Religious Tourism</h2>
+                    <br id="dest-desc">
+                    <p>Religious Tourism (bahasa Jawa: ꦉꦭꦶꦒꦶꦪꦺꦴꦈꦱ꧀ꦠꦺꦴꦈꦫꦶꦱ꧀ꦩ꧀ )</p>
+                    <!-- Tanda dibawah ini "<br> untuk memberikan spasi enter -->
+                    <br>
+                    <p>Adalah penginapan yang menawarkan kamar-kamar yang dirancang seperti rumah pribadi 
+                       dan memberikan pengalaman tinggal di rumah orang lain.  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container pb-5">
+        <h4 class="mb-4 fw-bold">Detail</h4>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card p-3 shadow card-detail-bg">
+                    <h5 id="dest-details">Fasilitas</h5>
+                    <ul>
+                        <!-- silahkan tambahkan keterangan fasilitas di bagian ini jika ingin menambahkan lagi tinggal copy tag <li></li> dan tambahkan keterangan fasilitas -->
+                        <li>Parkir Mobil dan Motor</li>
+                        <li>Tempat Santai</li>
+                        <li>Toilet</li>
+                        <li>Mushola</li>
+                    </ul>
+                    <hr />
+                    <p class="text-secondary mb-0">Harga Tiket</p>
+                    <p class="text-danger fw-bold fs-5" id="dest-ticket-price">150.000</p>
+                    <!-- Hiraukan dulu pada bagian ini -->
+                    <a href="https://api.whatsapp.com/send?phone=628912647833&text=Hallo%20admin%20desa%20wisata%21%20"
+                        class="btn btn-success" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> Contact for more information
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white py-4">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-3">
+              <a class="navbar-brand" href="#">
+                <!-- pada bagian image src, anda bisa mengganti dengan gambar yang ada pada folder images -->
+                <img src="./images/desa wisata (1).png" alt="Logo" width="70" height="70" />
+                Destiny
+              </a>
+              <p class="mt-3 mb-1">+6281393578767</p>
+              <p>Email:tanpowangen@gmail.com</p>
+            </div>
+    
+            <div class="col-md-3">
+              <ul class="list-unstyled mt-5">
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Tickets</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Contacts</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3">
+              <ul class="list-unstyled mt-5">
+                <li>
+                  <a href="#" class="text-white text-decoration-none">TanpoWangen.com</a>
+                </li>
+                <li>
+                  <a href="#" class="text-white text-decoration-none">Pokdarwis Tanpo Wangen</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="col-md-3">
+              <h5 class="mb-3">Subscribe</h5>
+              <form action="#">
+                <div class="input-group rounded">
+                  <input type="email" class="form-control" placeholder="Get product updates" />
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-arrow-right"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+    
+          <div class="row mt-4 border-top">
+            <div class="col-md-6 text-md-start mt-3">
+              <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="col-md-6 text-md-end mt-3">
+              <p>© 2024 TANPO WANGEN. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/render-page.js"></script>
+    <script>
+        loadHTML("#navbar-container", "partials/navbar.html");
+        loadHTML("#footer-container", "partials/footer.html");
+
+        async function getDestionation() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const destinationId = urlParams.get("id");
+
+            try {
+                const response = await fetch(
+                    "http://localhost:3000/api/destinations/" + destinationId,
+                    {
+                        method: "GET",
+                    }
+                );
+
+                const data = await response.json();
+
+                document.getElementById("dest-name").innerHTML = data.name;
+                document.getElementById("dest-desc").innerHTML = data.description;
+                document.getElementById("dest-details").innerHTML = data.details;
+                document.getElementById("dest-ticket-price").innerHTML = `
+          Rp${parseFloat(data.ticket_price_avg).toLocaleString("id-ID")}`;
+                document.getElementById("dest-photo").src = data.photo
+                    ? "http://localhost:3000/" + data.photo
+                    : "assets/images/no-image.png";
+            } catch (error) {
+                console.error("Error fetching destination:", error);
+            }
+        }
+    </script>
+</body>
+
+</html>
